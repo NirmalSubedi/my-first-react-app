@@ -8,6 +8,7 @@ import { Fruit } from "./Fruit.jsx";
 import { HTMLToJSX } from "./HtmlToJSX.jsx";
 import TodoList, { Bio } from "./HtmlToJSX-React.jsx";
 import { App as App2 } from "./RenderingTechniques.jsx";
+import { Person } from "./Person.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -19,5 +20,6 @@ createRoot(document.getElementById("root")).render(
     <TodoList />
     <Bio />
     <App2 />
+    <Person />
   </StrictMode>,
 );
